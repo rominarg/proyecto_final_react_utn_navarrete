@@ -1,0 +1,280 @@
+/* Routes Home*/
+.containerHome{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerBanner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Routes Menu*/
+.containerMenu {
+    width: 100%;
+    height: 100%;
+}
+
+.containerTituloMenu{
+    width: 60%;
+    padding-top: 30px;
+    margin: 0 auto;
+    color: var(--title-menu-menu);
+    font-weight: bold;
+}
+
+.span {
+    font-size: 25px;
+    color: var(--title-color);
+}
+
+.titulo {
+    width: 60%;
+    padding-top: 10px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+/* Routes Cafe*/
+.containerCafe {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloCafeH2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+.containerCafe section {
+    width: 35%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.containerCafe img {
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+}
+
+.containerCafe h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.containerCafe button {
+    font-size: 16px;
+    padding: 5px 15px;
+    background-color: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
+}
+
+/* Routes Expeciencia Starbucks*/
+.containerExperiencia {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSubtituloExperiencia {
+    width: 35%;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.containerSubtituloExperiencia h2 {
+    color: var(--sub-Title-Experience);
+}
+
+/*Routes Admin*/
+.containerFormulario {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFormulario h1,
+.containerFormulario hr {
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin: 30px 0;
+    color: var(--title-color);
+}
+
+.containerFormulario form {
+    width: 40%;
+    height: auto;
+    padding: 30px 0;
+    border-radius: 5px;
+    background-color: var(--fondo-form-admin);
+    color: var(--text-form-admin);
+    box-shadow: 2px 2px 7px var(--shadow-form);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFormulario form label {
+    width: 100%;
+    text-align: center;
+}
+
+.containerFormulario form input:not(#imagenProducto) {
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    border: 3px solid var(--borde-form-input);
+    border-radius: 50px;
+}
+
+.containerFormulario button {
+    width: 40%;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 30px 0;
+    padding: 10px 0;
+    background-color: var(--fondo-form-button);
+    border: 3px solid var(--borde-form-button);
+    border-radius: 50px;
+    box-shadow: 2px 2px 7px var(--shadow-form-button);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagenProducto {
+
+    font-size: 15px;
+    border: 2px solid var(--borde-form-input-archivo);
+    border-radius: 50px;
+    background-color: var(--fondo-form-input-archivo);
+
+}
+
+.containerFormulario button:hover {
+    background-color: var(--fondo-form-button-hover);
+    color: var(--color-form-button-hover);
+    box-shadow: 2px 2px 7px var(--shadow-form-button-hover);
+    cursor: pointer;
+}
+/* Routes Localizar Tiendas*/
+.containerLocalizarTienda{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*NotFoundError404*/
+.containerError {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: var(--title-color);
+    margin: 40px 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloError{
+    font-size: 30px;
+    color: var(--title-color);
+    margin: 40px 0;
+}
+
+.containerImageError{
+    width: 100%;
+    height: auto;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.containerImageError img{
+    width: 60%;
+    height: auto;
+}
+
+@media (max-width: 768px){
+    /* Routes Home*/
+    .containerBanner{
+        width: 100%;
+        height: auto;
+        margin-top: 95px;
+        display: flex;
+        justify-content: center;
+
+    }
+    /* Routes Menu*/
+    .containerTituloMenu{
+        width: 90%;
+        padding-top: 100px;
+    }
+    .span{
+        
+        font-size: 1rem;
+    }
+    .titulo{
+        width: 95%;        
+        font-size: 1.2rem;
+    }
+    /* Routes Cafe*/
+    .containerCafe section {
+        width: 90%;
+        height: auto;
+    }
+    /* Routes Experiencia Starbucks*/
+        .containerSubtituloExperiencia {
+        width: 90%;
+        height: auto;
+    }
+    /*Routes Admin*/
+    .containerFormulario h1{
+        margin-top: 150px;
+    }
+    .containerFormulario form{
+        width: 90%;
+        height: auto;
+    }
+    .containerFormulario form input{
+        width: 90% !important;
+        margin-top: 15px;
+    }
+}

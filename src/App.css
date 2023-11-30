@@ -1,0 +1,53 @@
+body{
+  background-color: var(--body-color);
+}
+
+hr{
+  color: var(--border-color);
+}
+
+:root,
+html[data-theme="light"]
+{
+  --title-color: #000000;
+  --text-color: #101010;
+  --main-color:#E3E3E3;
+  --body-color: #ffffff;
+  --border-color: #141414;
+  --sub-Title-Experience:#1e3933;
+  --title-Banners-Primary:#165413;
+  --title-Banners-Secundary: #212121;
+  --Banners-Title-Primario-Home: #ffffff;
+  --Banners-Text-Primario-Home: #ffffff;
+  --Banners-Title-Secundario-Home:#15754b;
+  --Banners-Text-Secundario-Home: #15754b;
+  --Banners-Title-Primario-Experiencia: #1f1f1f;
+  --Banners-Text-Primario-Experiencia: #1f1f1f;
+  --shadow-color:#6B6A6A;
+  --hover-localizador:#626060;
+  --button-fondo-dark-ligth:#036751;
+  --button-hover-fondo-dark-ligth:#06b992;
+  --button-shadow-dark-ligth:#000000;
+  --color-text-border-menu-hover: #164E16;
+  --menu-footer-title:#000000;
+  --menu-footer-text:#626060;
+  --menu-footer-text-hover:#000000;
+  --fondo-producto:#203933;
+  --borde-producto:#203933;
+  --borde-producto-hover:#BEDED5;
+  --title-menu-menu:#1e3933;
+  --fondo-form-admin:#1e3933;
+  --text-form-admin:#ffffff;
+  --shadow-form:#262626;
+  --borde-form-input:#82AE82;
+  --fondo-form-button:#9ABBB0;
+  --borde-form-button:#82AE82;
+  --shadow-form-button:#000000;
+  --fondo-form-button-hover:#3B674F;
+  --shadow-form-button-hover:#C5C4C4;
+  --color-form-button-hover:#ffffff;
+  --fondo-form-input-archivo:#68A385;
+  --borde-form-input-archivo:#68A385;
+  --color-icono-hamburguesa:#1f1f1f;
+}
+

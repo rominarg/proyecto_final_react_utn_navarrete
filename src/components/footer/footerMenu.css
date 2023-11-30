@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menuUno,
+.menuDos,
+.menuTres,
+.menuCuatro 
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    cursor: pointer;
+}
+.menuUno h3,
+.menuDos h3,
+.menuTres h3,
+.menuCuatro h3 {
+    color:var(--menu-footer-title);
+}
+
+.menuUno p,
+.menuDos p,
+.menuTres p,
+.menuCuatro p 
+{
+    color: var(--menu-footer-text);
+    padding: 15px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+}
+.menuUno p:hover,
+.menuDos p:hover,
+.menuTres p:hover,
+.menuCuatro p:hover 
+{
+    color: var(--menu-footer-text-hover);
+    padding: 15px 5px;
+}
